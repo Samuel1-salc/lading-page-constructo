@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Constructo — Acompanhamento inteligente de obras</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="nav">
+  <div class="container nav__inner">
+    <a href="#top" class="brand">
+      <img src="assets/logo-icon.png" alt="Constructo" class="brand__mark">
+      <span class="brand__word">CONSTRUCTO</span>
+    </a>
+    <nav class="nav__links" aria-label="Navegação principal">
+      <a href="#sobre" class="is-active">Sobre</a>
+      <a href="#o-que-e">O que é</a>
+      <a href="#como-funciona">Como funciona</a>
+      <a href="#funcionalidades">Funcionalidades</a>
+      <a href="#equipe">Equipe</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <a href="#contato" class="btn btn--dark btn--sm">Solicitar Demo</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="sobre">
+    <div class="container hero__grid">
+      <div class="hero__copy">
+        <span class="badge"><span class="badge__dot"></span>Tecnologia geoespacial de ponta</span>
+        <h1>Acompanhamento inteligente de obras com dados geoespaciais e visualização imersiva</h1>
+        <p class="lead">Uma plataforma de engenharia moderna que reúne, em um só lugar, tudo o que as construtoras precisam gerenciar e que o cliente final deseja saber sobre a obra que está comprando.</p>
+        <div class="hero__actions">
+          <a href="#plataforma" class="btn btn--primary">Conhecer a plataforma <span aria-hidden="true">→</span></a>
+          <a href="#contato" class="btn btn--outline">Falar com Especialista</a>
+        </div>
+      </div>
+
+      <div class="hero__visual" role="img" aria-label="Ilustração de mapeamento geoespacial de um canteiro de obras com polígonos de delimitação">
+        <img src="assets/mapa_palmas_por_cima.png" alt="Mapeamento geoespacial de Palmas" class="hero__svg" style="object-fit: cover; border-radius: 24px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+
+        <div class="hero__chip hero__chip--top">
+          <span class="hero__chip-dot"></span>
+          Torre A · 68% concluído
+        </div>
+        <div class="hero__chip hero__chip--bottom">
+          <span class="hero__chip-dot hero__chip-dot--indigo"></span>
+          3 ocorrências mapeadas
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROBLEM ============ -->
+  <section class="section section--tint">
+    <div class="container">
+      <p class="eyebrow">A realidade do setor</p>
+      <h2 class="h2">Seu cliente não sabe o que está acontecendo na obra dele</h2>
+      <p class="section-lead">Quando alguém compra um imóvel na planta, entra num verdadeiro limbo de informações. A construtora manda comunicados por canais soltos, o engenheiro atualiza planilhas internas de forma estática, e o comprador fica no escuro.</p>
+
+      <div class="grid grid--3">
+        <article class="card">
+          <span class="icon-chip icon-chip--rose">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/><line x1="3" y1="3" x2="21" y2="21"/></svg>
+          </span>
+          <h3>Sem clareza</h3>
+          <p>O comprador vive sob ansiedade constante. Ele não consegue responder a perguntas básicas: como está minha obra? Em que fase estamos? O cronograma será cumprido?</p>
+        </article>
+
+        <article class="card">
+          <span class="icon-chip icon-chip--amber">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><ellipse cx="12" cy="6" rx="8" ry="3"/><path d="M4 6v6c0 1.7 3.6 3 8 3s8-1.3 8-3V6"/><path d="M4 12v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6"/></svg>
+          </span>
+          <h3>Dados fragmentados</h3>
+          <p>Cronogramas físicos, relatórios fotográficos, certidões e planilhas de medição financeira residem em silos e sistemas incompatíveis, dificultando a gestão ágil.</p>
+        </article>
+
+        <article class="card">
+          <span class="icon-chip icon-chip--indigo">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0Z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          </span>
+          <h3>Perda de confiança</h3>
+          <p>A falta crônica de transparência no avanço da obra resulta em reclamações constantes nos canais de suporte, retrabalho de atendimento e desgaste da reputação.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PLATFORM ============ -->
+  <section class="section" id="o-que-e">
+    <div class="container">
+      <div class="section-intro">
+        <p class="eyebrow">A nova era da construção</p>
+        <h2 class="h2">Uma plataforma. Todas as informações. Zero ruído.</h2>
+        <p class="section-lead">O Constructo centraliza cronogramas físicos, indicadores de progresso, relatórios fotográficos estruturados e dados de posicionamento geoespacial em uma única experiência integrada para gestores e clientes finais.</p>
+      </div>
+
+      <div class="platform">
+        <ul class="feature-list">
+          <li>
+            <span class="icon-chip icon-chip--indigo icon-chip--sm">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"/><line x1="8" y1="2" x2="8" y2="18"/><line x1="16" y1="6" x2="16" y2="22"/></svg>
+            </span>
+            <div>
+              <h3>Mapa Geoespacial Interativo</h3>
+              <p>Visualize a localização exata de cada obra no mapa com delimitações em GeoJSON e acesso a indicadores operacionais contextualizados por região.</p>
+            </div>
+          </li>
+          <li>
+            <span class="icon-chip icon-chip--indigo icon-chip--sm">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </span>
+            <div>
+              <h3>Timeline de Obra Estruturada</h3>
+              <p>Uma linha do tempo interativa mostrando o progresso real de cada etapa, comunicados oficiais, fotos de evolução física e notificações automáticas.</p>
+            </div>
+          </li>
+          <li>
+            <span class="icon-chip icon-chip--indigo icon-chip--sm">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            </span>
+            <div>
+              <h3>Módulo Integrado "Meu Apê"</h3>
+              <p>O canal definitivo do comprador final: informações exclusivas sobre sua unidade, documentos fiscais, manual do proprietário e evolução física do bloco.</p>
+            </div>
+          </li>
+        </ul>
+
+        <img src="assets/dashboard.png" alt="Dashboard da plataforma" class="dashboard-mock" style="width: 100%; height: auto; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); display: block;">
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ JOURNEY ============ -->
+  <section class="section section--tint" id="como-funciona">
+    <div class="container">
+      <p class="eyebrow">A jornada do dado</p>
+      <h2 class="h2">Do território à evidência em poucos cliques</h2>
+
+      <div class="grid grid--5">
+        <article class="step-card">
+          <span class="step-card__num">01 / Território</span>
+          <h3>Visão Geoespacial</h3>
+          <p>Mapa de satélite com polígonos GeoJSON delimitando as zonas de monitoramento.</p>
+        </article>
+        <article class="step-card">
+          <span class="step-card__num">02 / Obra</span>
+          <h3>Seleção da Unidade</h3>
+          <p>Filtre por empreendimento e tenha um panorama resumido de todos os blocos e frentes.</p>
+        </article>
+        <article class="step-card">
+          <span class="step-card__num">03 / Situação</span>
+          <h3>Indicadores Chave</h3>
+          <p>Visualização instantânea do avanço físico, saldo financeiro e desvios de cronograma.</p>
+        </article>
+        <article class="step-card">
+          <span class="step-card__num">04 / Causa</span>
+          <h3>Análise de Ocorrências</h3>
+          <p>Mapeamento de interferências climáticas, atrasos em suprimentos e readequações.</p>
+        </article>
+        <article class="step-card">
+          <span class="step-card__num">05 / Evidência</span>
+          <h3>Garantia e Relatórios</h3>
+          <p>Visualização de fotos georreferenciadas, relatórios técnicos e diários de obras assinados.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DOMINUS ============ -->
+  <section class="section" id="funcionalidades">
+    <div class="container dominus">
+      <div class="dominus__visual" aria-hidden="true">
+        <img src="assets/image.png" alt="DOMINUS: Inteligência territorial da obra" style="width: 100%; height: auto; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+      </div>
+
+      <div class="dominus__copy">
+        <p class="eyebrow">Tecnologia exclusiva</p>
+        <h2 class="h2">DOMINUS: Inteligência territorial da obra</h2>
+        <p>O módulo DOMINUS é o coração geoespacial do Constructo. Nenhuma outra solução no mercado brasileiro integra dados de planejamento físico-financeiro à navegação territorial interativa.</p>
+        <ul class="check-list">
+          <li><span class="check-dot">✓</span>Representação real GeoJSON georreferenciada no mapa.</li>
+          <li><span class="check-dot">✓</span>Indicadores operacionais de avanço vinculados ao território.</li>
+          <li><span class="check-dot">✓</span>Rastreabilidade de ocorrências por coordenada geográfica.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MODULES ============ -->
+  <section class="section section--tint">
+    <div class="container">
+      <div class="section-intro">
+        <p class="eyebrow">Módulos de produto</p>
+        <h2 class="h2">Plataforma completa em todos os níveis</h2>
+      </div>
+
+      <div class="grid grid--2">
+        <div class="module-card">
+          <h3>Autenticação &amp; Perfis</h3>
+          <p>Perfis específicos para construtoras, engenheiros responsáveis e investidores finais.</p>
+        </div>
+        <div class="module-card">
+          <h3>Gestão de Obras</h3>
+          <p>Visualização global e detalhada de múltiplos canteiros de obra ativos de forma simples.</p>
+        </div>
+        <div class="module-card">
+          <h3>Aprovações</h3>
+          <p>Aprovações seguras de medição física diretamente do app para garantir agilidade.</p>
+        </div>
+        <div class="module-card">
+          <h3>Fotos &amp; Mídia</h3>
+          <p>Carregamento prático de registros fotográficos cronológicos de todas as etapas.</p>
+        </div>
+        <div class="module-card">
+          <h3>Timeline de Status</h3>
+          <p>Notícias e atualizações sobre as principais obras para manter todos engajados.</p>
+        </div>
+        <div class="module-card">
+          <h3>Módulo Meu Apê</h3>
+          <p>Foco na comunicação clara e transparente com o comprador da planta.</p>
+        </div>
+        <div class="module-card">
+          <h3>Histórico &amp; Log</h3>
+          <p>Diário robusto de auditoria com histórico permanente de logs operacionais.</p>
+        </div>
+        <div class="module-card">
+          <h3>Isolamento Seguro</h3>
+          <p>Separação de dados 100% garantida entre construtoras por arquitetura segura.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- ============ TEAM ============ -->
+  <section class="section section--tint" id="equipe">
+    <div class="container">
+      <p class="eyebrow">Quem faz acontecer</p>
+      <h2 class="h2">Quem está por trás do Constructo</h2>
+      <p class="section-lead section-lead--left">Quatro desenvolvedores do Bacharelado em Ciência da Computação da UFT, focados em soluções práticas e modernas de engenharia de software para transformar o canteiro de obras.</p>
+
+      <div class="grid grid--4">
+        <article class="team-card">
+          <img src="assets/jose.jpeg" alt="José Carlos da Silva Neto" class="team-card__photo" style="object-fit: cover;">
+          <h3>José Carlos da Silva Neto</h3>
+          <p>Desenvolvedor &amp; Co-founder</p>
+        </article>
+        <article class="team-card">
+          <img src="assets/edu.jpeg" alt="Eduardo L. de Oliveira Torres" class="team-card__photo" style="object-fit: cover;">
+          <h3>Eduardo L. de Oliveira Torres</h3>
+          <p>Desenvolvedor &amp; Co-founder</p>
+        </article>
+        <article class="team-card">
+          <img src="assets/ryan.jpeg" alt="Pedro Ryan O. de Almeida" class="team-card__photo" style="object-fit: cover;">
+          <h3>Pedro Ryan O. de Almeida</h3>
+          <p>Desenvolvedor &amp; Co-founder</p>
+        </article>
+        <article class="team-card">
+          <img src="assets/samuel.jpeg" alt="Samuel Andrade Luz Carneiro" class="team-card__photo" style="object-fit: cover;">
+          <h3>Samuel Andrade Luz Carneiro</h3>
+          <p>Desenvolvedor &amp; Co-founder</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <section class="cta" id="contato">
+    <div class="container cta__inner">
+      <h2>O mercado está pronto. A solução existe. Falta você.</h2>
+      <p>Estamos buscando construtoras pioneiras e parceiros estratégicos que queiram elevar o patamar da comunicação no mercado imobiliário. Solicite agora sua demonstração guiada da plataforma.</p>
+      <div class="cta__actions">
+        <a href="#contato" class="btn btn--primary">Falar com a equipe <span aria-hidden="true">→</span></a>
+        <a href="#contato" class="btn btn--outline-dark">Seja um Construtor Parceiro</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container footer__top">
+    <a href="#top" class="brand">
+      <img src="assets/logo-icon.png" alt="Constructo" class="brand__mark brand__mark--sm">
+      <span class="brand__word">CONSTRUCTO</span>
+    </a>
+    <p>Acompanhamento georreferenciado e transparente de ponta a ponta.</p>
+  </div>
+  <div class="container footer__bottom">
+    <p>© 2026 Constructo. Todos os direitos reservados. Projeto UFT — Ciência da Computação.</p>
+    <div class="footer__legal">
+      <a href="#">Políticas de Privacidade</a>
+      <a href="#">Termos de Uso</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
